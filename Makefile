@@ -9,7 +9,7 @@ PKG_LICENSE:=AGPL-3.0
 PKG_LICENSE_FILES:=LICENSE
 
 PKG_SOURCE_PROTO:=git
-PKG_SOURCE_URL:=https://github.com/mchome/dogcom.git
+PKG_SOURCE_URL:=https://github.com/gggssepgf/dogcom.git
 PKG_SOURCE_VERSION:=309db8f545d7454b464a5d5d1d7dc4bde313f07a
 
 PKG_SOURCE_SUBDIR:=$(PKG_NAME)
@@ -23,7 +23,7 @@ define Package/dogcom
 	SECTION:=net
 	CATEGORY:=Network
 	TITLE:=dogcom for OpenWRT
-	URL:=https://github.com/mchome/dogcom
+	URL:=https://github.com/gggssepgf/dogcom
 endef
 
 define Package/dogcom/description
